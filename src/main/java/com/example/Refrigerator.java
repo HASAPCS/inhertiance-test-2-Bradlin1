@@ -5,9 +5,14 @@ package com.example;
 public class Refrigerator {
     // Additional attributes
     private int temperature;
+    private String brand;
+    private String model;
+    private int powerUsage;
 
     // Constructor
     // TODO: Initialize the Refrigerator with brand, model, power usage, temperature
+
+    
 
     // Override displayInfo Method from Appliance
     // TODO: Implement a method that extends the information display to include the refrigerator's specific details (temperature)
