@@ -40,9 +40,9 @@ public class Appliance {
     }
 
     public String displayInfo() {
-        return "Brand: "BrandX, "Model:" ModelY, "Power Usage:" 500 "Watts";
+        return "Brand: " +this.brand+", "+"Model: "+this.model+", "+"Power Usage: " +this.powerUsage +" Watts";
     }
-
+    //"Brand: BrandX, Model: ModelY, Power Usage: 500 Watts";
     // displayInfo Method
     // TODO: Implement a method that returns information about the appliance, including brand, model, and power usage.
     // Check the tests for more details
